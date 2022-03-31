@@ -1,0 +1,130 @@
+* {box-sizing: border-box}
+.container {
+  width: 70%;
+    padding: 19px;
+    border-radius: 7px;
+    background-color: #C0C0C0;
+
+  }
+body{
+  background-color:#cdd3d6;
+}
+.nav{
+  width:90%;
+}
+input[type=text]{
+    width: 85%;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  input[type=number]{
+    width: 85%;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+  input[type=email]{
+    width: 85%;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+  input[type=button]{
+    width: 40%;
+    position: center;
+  }
+
+
+  .label{
+    
+      display: block;
+      width: 120px;
+      size-adjust: 15px;
+      position: center;
+  
+  }
+  
+
+ 
+
+  .table{
+    border:collapse;
+    background-color:#fff ;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.03);
+    border-radius: 10px;
+    margin:auto;
+
+
+  }
+
+  .th,td{
+    border: 1px solid #0c0c0c;
+    padding: 8px 30px;
+    text-align: center;
+    color:rgb(15, 15, 15);
+
+  }
+  .th{
+    text-transform: uppercase;
+    font-weight: 500;
+   }
+  .td{
+    font-size: 13px;}
+    .email{
+      font-size:14px;
+      color: gray;
+      display:inline-block;
+      background:#f2f2f2;
+      -webkit-border-radius: 2px;
+      -moz-border-radius:2px;
+      border-radius:2px;
+      line-height:30px;
+      padding:0 14px;
+       }
+
+    .post-class{
+      text-transform: uppercase;
+    }
+
+    .fa{
+      font-size: 18px;
+    }
+    .navbar-brand{
+ 
+      left:20;
+      right:20;
+      text-align: center;
+ 
+  background-color: #003B48;
+  width:90%;
+    }
+
+    footer{
+      background-color: #4c5557;
+      text-decoration-color: #cdd3d6;
+      text-emphasis-color:#fff ;
+      padding: 15px;
+      color: #fff;
+    border-radius: 5px;
+      width: 70%;
+    }
+    .button{
+      background-color: #003B48;
+    }
+  
+    
